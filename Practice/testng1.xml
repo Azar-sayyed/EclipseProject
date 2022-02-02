@@ -16,7 +16,7 @@
     </classes>
   </test> <!-- Test -->
 
-  <!-- <test name="testing on emulator AzarEmulator">
+  <test name="testing on emulator AzarEmulator">
 	
 	<parameter name="deviceName" value="AzarEmulator"/>
 	<parameter name="UDID" value="emulator-5554"/>
@@ -27,6 +27,6 @@
     <classes>
       <class name="PracticePOM.Practice.crmNEXT"/>
     </classes>
-  </test>-->
+  </test>
 
 </suite> <!-- Suite -->
