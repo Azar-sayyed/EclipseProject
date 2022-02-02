@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Parallel-run]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="testing on emulator AzarEmulator(failed)">
+    <parameter name="platformVersion_" value="11"/>
+    <parameter name="UDID_" value="emulator-5556"/>
+    <parameter name="platformName_" value="android"/>
+    <parameter name="mylink" value="127.0.0.1:4724/wd/hub"/>
+    <parameter name="deviceName_" value="AzarEmulator"/>
+    <classes>
+      <class name="PracticePOM.Practice.crmNEXT">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="shutdown"/>
+          <include name="home"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- PracticePOM.Practice.crmNEXT -->
+    </classes>
+  </test> <!-- testing on emulator AzarEmulator(failed) -->
+  <test thread-count="2" parallel="tests" name="testing on emulator Pixel_XL_API_30(failed)">
+    <parameter name="platformVersion_" value="11"/>
+    <parameter name="UDID_" value="emulator-5554"/>
+    <parameter name="platformName_" value="android"/>
+    <parameter name="mylink" value="127.0.0.1:4723/wd/hub"/>
+    <parameter name="deviceName_" value="Pixel_XL_API_30"/>
+    <classes>
+      <class name="PracticePOM.Practice.crmNEXT">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="shutdown"/>
+          <include name="home"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- PracticePOM.Practice.crmNEXT -->
+    </classes>
+  </test> <!-- testing on emulator Pixel_XL_API_30(failed) -->
+</suite> <!-- Failed suite [Parallel-run] -->

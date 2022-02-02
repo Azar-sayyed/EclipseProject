@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T11:41:52Z" name="Suite" finished-at="2022-01-25T11:42:04Z" duration-ms="12241">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T11:41:52Z" name="Test" finished-at="2022-01-25T11:42:04Z" duration-ms="12241">
+      <class name="PracticeTest.practice.BrowserStackSetup">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PracticeTest.practice.BrowserStackSetup@7fcf2fc1]" started-at="2022-01-25T17:11:52Z" name="setup" finished-at="2022-01-25T17:11:59Z" duration-ms="7490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_to_homepage_click_on_getstarted()[pri:1, instance:PracticeTest.practice.BrowserStackSetup@7fcf2fc1]" started-at="2022-01-25T17:11:59Z" name="navigate_to_homepage_click_on_getstarted" finished-at="2022-01-25T17:12:03Z" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage_click_on_getstarted -->
+        <test-method signature="enter_userDetails()[pri:2, instance:PracticeTest.practice.BrowserStackSetup@7fcf2fc1]" started-at="2022-01-25T17:12:03Z" name="enter_userDetails" finished-at="2022-01-25T17:12:04Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_userDetails -->
+      </class> <!-- PracticeTest.practice.BrowserStackSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
